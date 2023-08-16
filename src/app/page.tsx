@@ -1,3 +1,14 @@
 export default function Home() {
-  return <h1>Hello World!</h1>
+    return (
+        <div>
+            <div>
+                <aside>
+                    <nav>nav bar</nav>
+                </aside>
+                <main>main</main>
+            </div>
+            <footer>footer</footer>
+        </div>
+    )
+
 }
