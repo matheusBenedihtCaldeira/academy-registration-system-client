@@ -32,8 +32,8 @@ export default function Home() {
                     </nav>
                 </aside>
                 <main className="flex-1 p-6">main</main>
-            </div>
-            <footer className="border-t p-6">footer</footer>
+            </div> 
+            <footer className="bg-slate-600 border-t border-slate-500 p-6">footer</footer>
         </div>
     )
 
