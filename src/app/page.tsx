@@ -1,4 +1,4 @@
-import {Home as HomeIcon, Search, Users} from 'lucide-react';
+import {Home as HomeIcon, Search, Users, Library, User} from 'lucide-react';
 
 export default function Home() {
     return (
@@ -12,13 +12,23 @@ export default function Home() {
                         </a>
                         <a href="" className="flex items-center gap-3 text-base font-semibold hover::bg-slate-500">
                             <Search />
-                            Buscar
+                            Search
                         </a>
                         <a href="" className="flex items-center gap-3 text-base font-semibold hover::bg-slate-500">
                             <Users />
-                            Clientes
+                            Customers
                         </a>
-                        
+                        <a href="" className="flex items-center gap-3 text-base font-semibold hover::bg-slate-500">
+                            <Library />
+                            Services
+                        </a>
+                    </nav>
+                    <nav className="mt-7 pt-6 border-t border-slate-600 flex flex-col gap-2">
+                        <a href="" className="flex items-center gap-3 text-base">
+                            <User />
+                            Users</a>
+                        <a href="" className="text-base">Config</a>
+                        <a href="" className="text-base">Config</a>
                     </nav>
                 </aside>
                 <main className="flex-1 p-6">main</main>
